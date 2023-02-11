@@ -1,0 +1,26 @@
+.map-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 30px;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 75vh;
+}
+
+#mapp {
+  height: 100%;
+}
+
+.controls-container {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.extra-path-container {
+  height: 10vh;
+  overflow: scroll;
+}

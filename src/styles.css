@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+:root {
+  --rotation-angle: 0deg;
+}
+
+.leaflet-marker-icon.leaflet-div-icon {
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+}
+
+.custom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(var(--rotation-angle));
+}
