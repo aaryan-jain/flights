@@ -22,5 +22,5 @@
 
 .extra-path-container {
   height: 10vh;
-  overflow: scroll;
+  overflow: auto;
 }
